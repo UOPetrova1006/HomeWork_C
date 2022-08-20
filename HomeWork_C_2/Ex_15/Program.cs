@@ -33,3 +33,10 @@ class Program
        SelectDay();   
     }
 }
+
+
+Console.WriteLine("Введите цифру, обозначающую день недели: ");
+Console.WriteLine("1-Пн, 2-Вт, 3-Ср, 4-Чт, 5-Пт, 6-Сб, 7-Вс");
+
+int numberWeekDay = Convert.ToInt32(Console.ReadLine());
+string[] week = {"Пн, нет", "Вт, нет", "Ср, нет", "Чт, нет"}
